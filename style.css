@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left li,
+a {
+  margin: 0.5rem;
+  padding: 1rem;
+  list-style: none;
+  color: #686b6e;
+}
+
+.nav-right {
+  display: flex;
+}
+.nav-right li,
+a {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sign_in {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.sign_in:hover {
+  text-decoration: none;
+}
+
+.google_apps {
+  opacity: 0.6;
+}
+
+.google_apps:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: 5rem 0rem 1.5rem 0rem;
+}
+
+.search_bar {
+  padding: 0.4rem;
+  border-radius: 10rem;
+  width: 38vw;
+  border: 1px solid #c1c4c9;
+}
+.search_form {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_bar:hover {
+  box-shadow: 0rem 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+input {
+  outline: none;
+  width: 100%;
+  border: 0px solid black;
+  padding: 0.5rem;
+}
+input[type="text"] {
+  font-size: 1rem;
+}
+.search_input {
+  width: 100%;
+}
+
+.glass {
+  padding-left: 0.5rem;
+  opacity: 0.55;
+}
+
+.mic {
+  padding-right: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  margin: 0.9rem;
+  justify-content: space-around;
+  width: 25vw;
+}
+.google_search {
+  background-color: #f2f2f2;
+  color: #fff;
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.4rem;
+  opacity: 0.8;
+  display: inline-block;
+}
+.google_search:hover {
+  background-color: #f2f2f2;
+  border: 1px solid lightslategrey;
+  opacity: 2;
+}
+.google_search a:hover {
+  text-decoration: none;
+}
+
+.google_luck {
+  background-color: #f2f2f2;
+  color: #fff;
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.4rem;
+  opacity: 0.8;
+  display: inline-block;
+}
+.google_luck:hover {
+  background-color: #f2f2f2;
+  border: 1px solid lightslategrey;
+  opacity: 2;
+}
+.google_luck a:hover {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #f2f2f2;
+  align-items: center;
+}
+
+.footer_left {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
+a:hover {
+  text-decoration: underline;
+}
+.footer_right {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+}
